@@ -1,1 +1,1 @@
-add_lunch_combo superior_land-userdebug
+add_lunch_combo lotus_land-userdebug
