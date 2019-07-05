@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Superior stuff
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/lotus/config/common.mk)
 
 #Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 720
@@ -33,7 +33,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := land
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := superior_land
+PRODUCT_NAME := lotus_land
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
