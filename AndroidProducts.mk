@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_land.mk
+    $(LOCAL_DIR)/lotus_land.mk
