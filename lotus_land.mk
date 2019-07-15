@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Superior stuff
 $(call inherit-product, vendor/lotus/config/common.mk)
-
+ export LOTUS_BUILD_TYPE=Official
 #Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 720
 
